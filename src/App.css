@@ -1,0 +1,59 @@
+.container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: monospace;
+}
+
+section {
+  position: relative;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  font-weight: 500;
+
+}
+ul li{
+  list-style: none;
+}
+
+h2 {
+  font-size: clamp(1.75rem, 4vw, 3rem);
+  font-weight: 600;
+  font-weight: bolder;
+}
+h1 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 700;
+  background: linear-gradient(to right, blue, white);
+  color: transparent;
+  background-clip: text;
+  font-weight: bolder;
+}
+p,
+span {
+  font-size: clamp(0.95rem, 2vw, 1.125rem);
+  font-weight: 400;
+}

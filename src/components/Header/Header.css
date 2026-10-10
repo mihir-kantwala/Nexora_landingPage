@@ -1,0 +1,35 @@
+a {
+  text-decoration: none;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.4s;
+}
+
+.nav ul li a:hover{
+    color: lightblue;
+    font-weight: bolder;
+}
+
+.nav ul li a:hover::after {
+  opacity: 1;
+  transform: scaleZ(1);
+  transition: background 0.3s ease-out, opacity 0.05s,
+    transform 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+    
+}
+
+.nav ul li a::after {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 3px;
+  height: 5px;
+  content: "";
+  background: white;
+
+  opacity: 0;
+  transform: scale3d(0, 1, 1);
+  transition: background 0.3s ease-out, opacity 0.19s,
+    transform 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+}

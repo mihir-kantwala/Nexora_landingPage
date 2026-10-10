@@ -1,0 +1,13 @@
+.setedastronaut {
+  position: relative;
+  animation: moves 3s ease-in-out infinite alternate;
+}
+
+@keyframes moves {
+  from {
+    transform: translate(10px, 10px) rotate(0deg);
+  }
+  to {
+    transform: translate(4px, -4px) rotate(4deg);
+  }
+}

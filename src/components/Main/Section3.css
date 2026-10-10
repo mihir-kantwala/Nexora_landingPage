@@ -1,0 +1,15 @@
+
+
+@keyframes rotate {
+    from    {
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+
+.plantrotate{
+      animation: rotate infinite 60s linear ;
+}

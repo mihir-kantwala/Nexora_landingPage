@@ -1,0 +1,14 @@
+.astros {
+  animation: move 2s infinite linear alternate ;
+}
+
+@keyframes move {
+    from{
+        left: 50%;
+        top: 50%;
+    }
+    to{
+        left: 52%;
+        top: 52%;
+    }
+}
